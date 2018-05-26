@@ -5,7 +5,7 @@ class Unit{
 }
 class Champion extends Unit{
 	int MP = 1000;
-	String type = "원거리";
+	String type = "근거리";
 	int avilityPower = 100;
 	int level = 10;
 	int attackSpeed = 10;
