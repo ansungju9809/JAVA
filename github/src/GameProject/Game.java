@@ -6,6 +6,7 @@ public class Game {
 		champion Champion = new champion();
 		Champion.all();
 		Champion.champion(sc.next(), sc.nextInt(), sc.nextInt(), sc.nextInt());
+
 		sc.close();
 	}
 }
@@ -25,4 +26,7 @@ class champion extends all{
 		System.out.print("챔피언 정보" + "\n이름 : " + name + "\n체력 : " + hp);
 		System.out.println("\n마나 : " + mp + "\n레벨 : " + lv + "lv");
 	}
+}
+class monster extends all{
+	
 }
